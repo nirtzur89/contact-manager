@@ -26,7 +26,10 @@ class Contact extends Component {
         {value => {
           const { dispatch } = value;
           return (
-            <div className="card card-body mb-3">
+            <div
+              className="card card-body mb-3"
+              style={{ backgroundColor: "#FFC300" }}
+            >
               <h4>
                 {name}{" "}
                 <i

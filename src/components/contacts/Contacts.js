@@ -11,7 +11,7 @@ class Contacts extends Component {
         {value => {
           const { contacts } = value;
           return (
-            <div>
+            <div style={{ backgroundColor: "#FF5733" }}>
               <h1 className="display-4 mb-4">Contact List:</h1>
               {contacts.map(contact => (
                 <Contact key={contact.id} contact={contact} />
