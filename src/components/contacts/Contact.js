@@ -28,7 +28,7 @@ class Contact extends Component {
           return (
             <div
               className="card card-body mb-3"
-              style={{ backgroundColor: "#FFC300" }}
+              style={{ backgroundColor: "#D9F3F0  " }}
             >
               <h4>
                 {name}{" "}

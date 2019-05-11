@@ -17,9 +17,9 @@ class App extends Component {
     return (
       <Provider>
         <Router>
-          <div className="App">
+          <div className="App" style={{ backgroundColor: "#F8F9F9" }}>
             <Header branding="Contact Manager" />
-            <div className="container">
+            <div className="container" style={{ backgroundColor: "#F8F9F9" }}>
               <Switch>
                 <Route exact path="/" component={Contacts} />
                 <Route exact path="/contact/add" component={AddContact} />
